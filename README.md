@@ -17,9 +17,5 @@ A Full-Stack Developer from Costa Rica, focused on .NET / C# and Angular / Pytho
 
 <img src="https://skillicons.dev/icons?i=cs,dotnet,angular,ts,js,html,css,tailwind,sqlserver,postgres,mongodb,python,git,github" />
 
-#### GitHub Stats
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=LSvargas25&show_icons=true&theme=dark&hide_border=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LSvargas25&layout=compact&theme=dark&hide_border=true" />
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=LSvargas25&theme=dark&hide_border=true)
