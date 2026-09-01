@@ -33,4 +33,4 @@ Each repository above has its own README with the architecture, setup instructio
 - Email: [luisstevenvargasr@gmail.com](mailto:luisstevenvargasr@gmail.com)
 - LinkedIn: [linkedin.com/in/luis-steven-vargas-rodríguez](https://www.linkedin.com/in/luis-steven-vargas-rodr%C3%ADguez/)
 
-<img src="https://skillicons.dev/icons?i=cs,dotnet,angular,ts,js,html,css,tailwind,postgres,nodejs,express,git,github" />
+<img src="https://skillicons.dev/icons?i=cs,dotnet,Python-Dark,Kubernetes,angular,ts,js,html,css,tailwind,postgres,nodejs,express,git,github" />
