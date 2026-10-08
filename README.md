@@ -6,14 +6,13 @@ I build backend systems and full-stack web applications end to end: REST APIs wi
 
 ## Live demos
 
-| Project | Try it | Code |
+| Project | What it is | Demo |
 |---|---|---|
-| **LvBuild**: construction ERP (budgets → offers with PDF → projects with budget vs. actual, weekly site logs, payroll, invoicing) | [App](https://lvbuild-web.onrender.com) · [API (Swagger)](https://lvbuild-api.onrender.com/swagger) | [LvBuild](https://github.com/LSvargas25/LvBuild) · [lvbuild-web](https://github.com/LSvargas25/lvbuild-web) |
-| **FitRos**: gym and coaching management platform | [App](https://fitros-web.pages.dev) | [fitros-api](https://github.com/LSvargas25/fitros-api) · [fitros-web](https://github.com/LSvargas25/fitros-web) |
-| **Mis Finanzas**: personal finance PWA (expenses, income, investments, loans) | [App](https://widget-finanzas.onrender.com) | [widget-finanzas](https://github.com/LSvargas25/widget-finanzas) |
-| **Pokédex**: Angular app over a caching proxy for PokéAPI | [App](https://pokedex-frontend-md48.onrender.com) | [pokedex-frontend](https://github.com/LSvargas25/pokedex-frontend) · [pokedex-backend](https://github.com/LSvargas25/pokedex-backend) |
+| **Pokédex** | Angular Pokédex over an Express caching proxy for the public PokéAPI | [Open the app](https://pokedex-frontend-md48.onrender.com) (play as a guest) |
+| **LvBuild** | Construction ERP: budgets, client offers with PDFs, projects with budget vs. actual, site logs, payroll and invoicing | [Open the app](https://lvbuild-web.onrender.com) (demo logins in the [LvBuild README](https://github.com/LSvargas25/LvBuild)) |
+| **FitRos** | Gym and coaching management platform for owners, admins, coaches and members | [Open the app](https://fitros-web.onrender.com) |
 
-The demos run on free hosting tiers: the first request after a while can take 30-60 seconds while the server wakes up. LvBuild's README lists demo logins for every role.
+> The demos run on Render's free tier: the first visit after a while can take up to 1 minute while the server wakes up.
 
 ## Tech stack
 
@@ -34,8 +33,6 @@ The demos run on free hosting tiers: the first request after a while can take 30
 | [LvBuild](https://github.com/LSvargas25/LvBuild) / [lvbuild-web](https://github.com/LSvargas25/lvbuild-web) | ERP for a construction company: budget approval workflow, client offers with generated PDFs, projects with budget vs. actual per chapter, weekly site logs, payroll and point-of-sale invoicing. Dockerized, health checks, demo data, CI with integration tests against PostgreSQL | ASP.NET Core 8, EF Core, PostgreSQL, JWT, React 19, TypeScript, TanStack Query, Docker |
 | [fitros-api](https://github.com/LSvargas25/fitros-api) / [fitros-web](https://github.com/LSvargas25/fitros-web) | Gym management platform (owners, admins, coaches, members) built with Clean Architecture and a CQRS-style command/handler pattern, with an automated test suite | ASP.NET Core, EF Core, PostgreSQL, JWT, Angular |
 | [widget-finanzas](https://github.com/LSvargas25/widget-finanzas) | Personal finance app, installable as a PWA on iPhone | Python, FastAPI, vanilla JS (PWA) |
-| [StoreApi](https://github.com/LSvargas25/StoreApi) | E-commerce backend with role-based access, a custom API-key middleware, and a repository-based data layer | ASP.NET Core, EF Core, SQL Server, JWT |
-| [ExpandeCR](https://github.com/LSvargas25/ExpandeCR) / [ExpandeBack](https://github.com/LSvargas25/ExpandeBack) | Full-stack business web app with a versioned API and EF Core migrations | ASP.NET Core, EF Core, SQL Server, Angular |
 | [pokedex-frontend](https://github.com/LSvargas25/pokedex-frontend) / [pokedex-backend](https://github.com/LSvargas25/pokedex-backend) | Pokédex app with an Express caching layer in front of the public PokéAPI | Angular, Node.js, Express |
 
 Each repository above has its own README with the architecture, setup instructions, and the technical decisions behind it.
